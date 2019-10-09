@@ -434,6 +434,7 @@ GameObject:
   - component: {fileID: 1644422114}
   - component: {fileID: 1644422113}
   - component: {fileID: 1644422121}
+  - component: {fileID: 1644422122}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -622,6 +623,7 @@ MonoBehaviour:
   - {fileID: 1644422117}
   - {fileID: 1644422114}
   - {fileID: 1644422113}
+  - {fileID: 1644422122}
   - {fileID: 1644422109}
 --- !u!114 &1644422107
 MonoBehaviour:
@@ -649,7 +651,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1644422106}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1644422122}
   variables:
   - {fileID: 1644422112}
   description: 
@@ -1222,7 +1225,7 @@ MonoBehaviour:
   toPositionOLD: {x: 0, y: 0, z: 0}
 --- !u!114 &1644422121
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1238,6 +1241,45 @@ MonoBehaviour:
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &1644422122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644422102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445c07472dafe4e0ead0e88c4b757401, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 15
+  indentLevel: 1
+  _targetObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1838699424}
+  _tweenName:
+    stringRef: {fileID: 0}
+    stringVal: 
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  easeType: 2
+  loopType: 0
+  stopPreviousTweens: 0
+  waitUntilFinished: 0
+  targetObjectOLD: {fileID: 0}
+  tweenNameOLD: 
+  durationOLD: 0
+  _toTransform:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  _toPosition:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+  isLocal: 0
+  toTransformOLD: {fileID: 0}
+  toPositionOLD: {x: 0, y: 0, z: 0}
 --- !u!1 &1834511971
 GameObject:
   m_ObjectHideFlags: 0
